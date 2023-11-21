@@ -1,0 +1,89 @@
+\documentclass[12pt]{article}
+
+\usepackage{amsmath, amsthm, amssymb, amsfonts}
+\usepackage{thmtools}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{framed}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{environ}
+\usepackage{tcolorbox}
+
+\geometry{
+    top=1in,
+    bottom=1in,
+    right=0.75in,
+    left=0.75in,
+    headheight=12pt,
+}
+
+% ------------------------------------------------------------------------------
+
+\begin{document}
+\title{\vspace{-60pt}Winter MathCamp Problemset 1}
+\author{Aniruddha Deb}
+\date{5 Dec 2023}
+
+\maketitle
+
+\subsection*{Warmup}
+
+\begin{enumerate}[label=Q\arabic*.,resume]
+    \item You have 9 coins, one of which is lighter than all the others (call 
+        this the dummy coin). You also have a weighing scale. Find the dummy 
+        coin in two weighings.
+    \item The numbers 1, 2, 3, ... 1984, 1985 are written on a blackboard. We
+        decide to erase from the blackboard any two numbers, and replace them
+        with their positive difference. After this is done several times, a
+        single number remains on the blackboard. Can this number equal 0?
+    \item 25 boys and girls each are seated at a round table. Show
+        that both neighbors of at least one student are boys.
+    \item Can a 5 x 5 square checkerboard be covered by 1 x 2 dominoes?
+
+\end{enumerate}
+
+\subsection*{Some Proofs by Contradiction}
+
+\begin{enumerate}[label=Q\arabic*.,resume]
+    \item Prove that the sum of a rational number and an irrational number is 
+        irrational 
+    \item $\star$ Prove that there are infinitely many prime numbers 
+\end{enumerate}
+
+\subsection*{Pigeonhole Principle}
+
+\begin{enumerate}[label=Q\arabic*.,resume]
+    \item $\star$ Say you have 6 people at a party, and everyone is either a friend or
+        an enemy of each other. Prove that there are either 3 mutual friends,
+        or 3 mutual enemies. 
+
+    \item 17 points are distributed inside a square of 1 m. Prove that there
+        exist three points which can be covered with a square of side 0.25 m.
+\end{enumerate}
+
+\subsection*{Some Proofs by Induction}
+
+\begin{enumerate}[label=Q\arabic*.,resume]
+    \item Prove that the nth fibonacci number is given by the formula $$F_n = \frac{\phi^n - \psi^n}{\phi - \psi}$$
+        where $\phi = (1+\sqrt{5})/2$ and $\psi = (1-\sqrt{5})/2$. Note that 
+        $F_0 = 0$ and $F_1 = 1$.
+
+    \item Prove that 7 divides $4^{n+1} + 5^{2n-1}$ for any positive integer $n$
+
+    \item Prove that every natural number greater than 1 is a product of two 
+        or more prime numbers.
+    
+    \item $\star$ Prove that $$\frac{x_1 + x_2 + \ldots + x_n}{n} \ge \sqrt[n]{x_1x_2
+        \ldots x_n}$$ for all $n \ge 2$ (This is called the AM-GM inequality. The 
+        term on the left is the \emph{arithmetic mean} of $n$ numbers, and 
+        the term on the right is the \emph{geometric mean} of $n$ numbers)
+
+\end{enumerate}
+
+\end{document}
